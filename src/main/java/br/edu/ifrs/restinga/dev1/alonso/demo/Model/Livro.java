@@ -15,9 +15,12 @@ public class Livro {
 	
 	private String titulo;
 	
+	public Livro() {
+		
+	}
+	
 	public Livro (Long id, String titulo) {
         super();
-        this.id = id;
         this.titulo = titulo;
     }
 
